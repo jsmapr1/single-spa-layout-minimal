@@ -11,7 +11,6 @@ module.exports = (env) => ({
   devtool: "source-map",
   module: {
     rules: [
-      { parser: { system: false } },
       {
         test: /\.js$/,
         exclude: /node_modules/
